@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  datamodelingwithpostgresmaster:
+    image: datamodelingwithpostgresmaster
+    build:
+      context: .
+      dockerfile: ./Dockerfile
